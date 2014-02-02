@@ -1,12 +1,12 @@
 <?php
-namespace Iter;
+namespace Reti\Core;
 
 /**
  * Class Router
  *
  * The main router class
  *
- * @package Iter
+ * @package Reti
  */
 class Router {
 

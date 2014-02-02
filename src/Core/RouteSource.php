@@ -1,6 +1,6 @@
 <?php
 
-namespace Iter;
+namespace Reti\Core;
 
 /**
  * Interface RouteSource
@@ -12,7 +12,7 @@ namespace Iter;
  * from various locations, a PHP array, JSON file,
  * XML file, RESTful API, etc.
  *
- * @package Iter
+ * @package Reti
  */
 interface RouteSource {
 

@@ -1,12 +1,12 @@
 <?php
-namespace Iter;
+namespace Reti\Core;
 
 /**
  * Class Route
  *
  * Describes a single Route found in the Router.
  *
- * @package Iter
+ * @package Reti
  */
 class Route {
 
@@ -16,8 +16,6 @@ class Route {
     private $notation;
     /** @var mixed What this route maps to. Can be anything, decided by the caller. */
     private $map;
-    /** @var NotationParser  */
-    private $notationParser;
 
     public function __construct($name, $notation, $map) {
         $this->name = $name;

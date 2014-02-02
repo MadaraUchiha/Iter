@@ -1,5 +1,5 @@
 <?php
-namespace Iter;
+namespace Reti\Core;
 
 /**
  * Interface NotationParser
@@ -8,7 +8,7 @@ namespace Iter;
  * create different notation syntaxes, and parse them
  * as needed.
  *
- * @package Iter
+ * @package Reti
  */
 interface NotationParser {
 
